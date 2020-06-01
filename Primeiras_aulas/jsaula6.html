@@ -1,0 +1,31 @@
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+
+  
+  <script>
+    
+    function dividirEntreVizinhos(laranjas, vizinhos){
+        return Math.trunc(laranjas/vizinhos);
+    }
+
+    function restanteAposDivisao(laranjas, vizinhos){
+        return laranjas%vizinhos;
+    }
+
+    var qtdd_laranjas = prompt("Quantas laranjas serão divididas entre os vizinhos?");
+    var qtdd_vizinhos = prompt("Quantos vizinhos irão receber laranjas?");
+    document.write("Cada vizinho receberá "+ dividirEntreVizinhos(qtdd_laranjas, qtdd_vizinhos)+" laranjas.<br>");
+    document.write("Sobraram "+ restanteAposDivisao(qtdd_laranjas, qtdd_vizinhos)+" laranjas após a divisão.<br><br><br>");
+    
+</script>
+
+
+</head>
+
+<body>
+
+</body>
+
+</html>

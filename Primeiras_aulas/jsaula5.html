@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+
+  <script>
+    let valor = 4;
+
+    function pular_linha(){
+      document.write("<br>");
+    }
+
+    function dobrar(valor){
+      return valor * 2;
+    }
+    function mostrar_dobro(valor){
+      document.write("O dobro de " +valor+" é "+dobrar(valor)+".");
+      pulaLinha();
+    }
+
+    mostrar_dobro(valor);  
+
+    function dividir_por_dois(valor){
+      return valor / 2;
+    }
+    function mostrar_divisao(valor){
+      document.write("A metade de " +valor+" é "+dividir_por_dois(valor)+".");
+      pular_linha();
+    }
+
+    mostrar_divisao(valor);
+
+    let nome = "Koman";
+
+    function saudar(nome){
+      document.write("Olá "+nome+", tudo bem.");
+      pular_linha();
+    }
+
+    saudar(nome);
+    
+  </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
